@@ -40,7 +40,7 @@ function App() {
   
   return (
     <div className="App">
-      <UserInput onChange={handleChange} writting={dinamicChange}/>
+      <UserInput onChange={dinamicChange}/>
       <button className="button-class" onClick={handleChange}>Testing</button>
       <input type="checkbox" onChange={toggleOutput} /> 
       <label htmlFor="">Hide/Display Output</label>

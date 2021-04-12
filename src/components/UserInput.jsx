@@ -3,7 +3,7 @@ import React from "react";
 const UserInput = (props) => {
     return(
         <div>
-            <input onChange={props.writting} type="text" name="" id=""/>
+            <input onChange={props.onChange} type="text" name="" id=""/>
         </div>
     );
 };
